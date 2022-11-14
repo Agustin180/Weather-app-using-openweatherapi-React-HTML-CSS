@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/css/main.a9aaa765.css",
-    "main.js": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/js/main.64d2e37f.js",
+    "main.css": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/css/main.7a43841d.css",
+    "main.js": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/js/main.d43394f0.js",
     "static/media/daybackground.jpg": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/media/daybackground.e2e9007c3d905cc01f81.jpg",
     "static/media/nightbackground.jpg": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/media/nightbackground.4cb06dbb47bae059f832.jpg",
     "static/media/daycard.jpg": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/media/daycard.d60cce916241fbd70e89.jpg",
     "static/media/nightcard.jpg": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/media/nightcard.7d616f8f8201c56a32c3.jpg",
     "index.html": "/Weather-app-using-openweatherapi-React-HTML-CSS/index.html",
-    "main.a9aaa765.css.map": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/css/main.a9aaa765.css.map",
-    "main.64d2e37f.js.map": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/js/main.64d2e37f.js.map"
+    "main.7a43841d.css.map": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/css/main.7a43841d.css.map",
+    "main.d43394f0.js.map": "/Weather-app-using-openweatherapi-React-HTML-CSS/static/js/main.d43394f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9aaa765.css",
-    "static/js/main.64d2e37f.js"
+    "static/css/main.7a43841d.css",
+    "static/js/main.d43394f0.js"
   ]
 }
