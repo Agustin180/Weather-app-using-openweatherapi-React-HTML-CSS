@@ -173,7 +173,7 @@ const App = () => {
             {/* MODAL DONDE SE CAMBIA LA CIUDAD */}
             {
               openmodal === true ? (
-                <div>
+                <div className='general-total-modal'>
                   {hoursarg >= 20 || hoursarg < 7 || hourscol >= 20 || hourscol < 7 || hoursrus >= 20 || hoursrus < 7 ?
                     <div className='general-modal-night'>
                       <div className='general-modal-arg-night' onClick={CitytoArg}>Argentina</div>

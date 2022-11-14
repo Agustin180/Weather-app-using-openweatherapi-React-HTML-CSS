@@ -60,7 +60,7 @@ body {
 }
 
 .general-country-content {
-  height: 60px;
+  height: 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,8 +91,14 @@ body {
   cursor: pointer;
 }
 
-.general-modal-day {
+.general-total-modal {
+  width: 303px;
   position: absolute;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.general-modal-day {
   width: 80px;
   display: flex;
   flex-direction: column;
@@ -100,8 +106,6 @@ body {
   align-items: center;
   text-align: center;
   gap: 5px;
-  right: 807px;
-  top: 264px;
   background-color: hsl(8, 100%, 62%);
   color: var(--font-color-primary);
   font-family: var(--font-family-primary);
@@ -112,7 +116,6 @@ body {
 }
 
 .general-modal-night {
-  position: absolute;
   width: 80px;
   display: flex;
   flex-direction: column;
@@ -120,8 +123,6 @@ body {
   align-items: center;
   text-align: center;
   gap: 5px;
-  right: 807px;
-  top: 264px;
   background-color: hsl(204, 64%, 23%);
   color: var(--font-color-primary);
   font-family: var(--font-family-primary);
@@ -154,7 +155,7 @@ body {
   border-color: hsl(205, 100%, 15%);
 }
 
-.general-modal-arg-night{
+.general-modal-arg-night {
   margin-top: 3px;
 }
 
