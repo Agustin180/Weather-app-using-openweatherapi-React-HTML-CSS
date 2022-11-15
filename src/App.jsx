@@ -116,6 +116,7 @@ const App = () => {
     setHoursArg(Number(time.toLocaleTimeString([], { timeZone: 'America/Argentina/Buenos_Aires', hour: '2-digit' })));
     setLoading(true)
     setShowData(false)
+    setOpenModal(false)
     setTimeout(() => {
       CallApi();
       setCity(cityarg);
