@@ -12,7 +12,7 @@ const App = () => {
   const [weather, setUseWeathers] = useState([]);
   const [showdata, setShowData] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [hoursarg, setHoursArg] = useState(Number(time.toLocaleTimeString([], { timeZone: 'America/Argentina/Buenos_Aires', hour: '2-digit' })));
+  const [hoursarg, setHoursArg] = useState(Number(time.toLocaleTimeString(('es-AR'), { timeZone: 'America/Argentina/Buenos_Aires', hour: '2-digit' })));
   const [minutesarg, setMinutesArg] = useState();
   const [daynumarg, setDayNumArg] = useState();
   const [daystrarg, setDayStrArg] = useState();
@@ -113,7 +113,7 @@ const App = () => {
   const FastRefresh = () => {
     setHoursCol();
     setHoursRus();
-    setHoursArg(Number(time.toLocaleTimeString([], { timeZone: 'America/Argentina/Buenos_Aires', hour: '2-digit' })));
+    setHoursArg(Number(time.toLocaleTimeString(('es-AR'), { timeZone: 'America/Argentina/Buenos_Aires', hour: '2-digit' })));
     setLoading(true)
     setShowData(false)
     setOpenModal(false)
@@ -130,7 +130,7 @@ const App = () => {
   const CitytoArg = () => {
     const time = new Date();
     setCity(cityarg);
-    setHoursArg(Number(time.toLocaleTimeString([], { timeZone: 'America/Argentina/Buenos_Aires', hour: '2-digit' })));
+    setHoursArg(Number(time.toLocaleTimeString(('es-AR'), { timeZone: 'America/Argentina/Buenos_Aires', hour: '2-digit' })));
     setHoursCol();
     setHoursRus();
     setOpenModal(false)
@@ -139,7 +139,7 @@ const App = () => {
   const CitytoCol = () => {
     const time = new Date();
     setCity(citycol);
-    setHoursCol(Number(time.toLocaleTimeString([], { timeZone: 'America/Bogota', hour: '2-digit' })));
+    setHoursCol(Number(time.toLocaleTimeString(('es-AR'), { timeZone: 'America/Bogota', hour: '2-digit' })));
     setHoursArg();
     setHoursRus();
     setOpenModal(false)
@@ -148,7 +148,7 @@ const App = () => {
   const CitytoRus = () => {
     const time = new Date();
     setCity(cityrus);
-    setHoursRus(Number(time.toLocaleTimeString([], { timeZone: 'Europe/Moscow', hour: '2-digit' })));
+    setHoursRus(Number(time.toLocaleTimeString(('es-AR'), { timeZone: 'Europe/Moscow', hour: '2-digit' })));
     setHoursArg();
     setHoursCol();
     setOpenModal(false)
