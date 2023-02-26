@@ -178,14 +178,14 @@ const App = () => {
                   {hoursarg >= 20 || hoursarg < 7 || hourscol >= 20 || hourscol < 7 || hoursrus >= 20 || hoursrus < 7 ?
                     <div className='general-modal-night'>
                       <div className='general-modal-arg-night' onClick={CitytoArg}>Argentina</div>
-                      <p className='general-modal-col-night' onClick={CitytoCol}>Colombia</p>
-                      <p className='general-modal-esp-night' onClick={CitytoRus}>Rusia</p>
+                      <div className='general-modal-col-night' onClick={CitytoCol}>Colombia</div>
+                      <div className='general-modal-esp-night' onClick={CitytoRus}>Rusia</div>
                     </div>
                     :
                     <div className='general-modal-day'>
                       <div className='general-modal-arg-day' onClick={CitytoArg}>Argentina</div>
-                      <p className='general-modal-col-day' onClick={CitytoCol}>Colombia</p>
-                      <p className='general-modal-esp-day' onClick={CitytoRus}>Rusia</p>
+                      <div className='general-modal-col-day' onClick={CitytoCol}>Colombia</div>
+                      <div className='general-modal-esp-day' onClick={CitytoRus}>Rusia</div>
                     </div>
                   }
                 </div>
